@@ -2,6 +2,11 @@ cls
 @echo off
 title Expense Tracker Devloped by @theejacob101 on GitHub
 
+echo ===================================
+echo         [91mExpense Tracker[0m
+echo [92mDevloped by @theejacob101 on GitHub[0m
+echo ===================================
+
 if not exist log.csv echo Made by expence >> log.csv
 
 choice /c IO /m "Incoming or Outgoing"
