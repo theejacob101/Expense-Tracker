@@ -1,6 +1,6 @@
 cls
 @echo off
-title Expense Tracker Devloped by @theejacob101 on GitHub
+title cmd.exe - exptrack
 
 echo ===================================
 echo         [91mExpense Tracker[0m
@@ -28,7 +28,7 @@ set /p comment=What is this from?
 echo.
 echo Logged:
 echo %date%,%time%,%username%,%type%%amt%, %comment%
-echo %date%, %time%,%username%,%type%%amt%, %comment% >> log.csv
+echo %date%,%time%,%username%,%type%%amt%, %comment% >> log.csv
 pause
 call ExpenseTracker.bat
 
